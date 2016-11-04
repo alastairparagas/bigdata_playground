@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataroot>
+  <Orders>
+    <OrderNum>21608</OrderNum>
+    <OrderDate>20-OCT-2007</OrderDate>
+    <CustomerNum>148</CustomerNum>
+  </Orders>
+  <Orders>
+    <OrderNum>21610</OrderNum>
+    <OrderDate>20-OCT-2007</OrderDate>
+    <CustomerNum>356</CustomerNum>
+  </Orders>
+  <Orders>
+    <OrderNum>21613</OrderNum>
+    <OrderDate>21-OCT-2007</OrderDate>
+    <CustomerNum>408</CustomerNum>
+  </Orders>
+  <Orders>
+    <OrderNum>21614</OrderNum>
+    <OrderDate>21-OCT-2007</OrderDate>
+    <CustomerNum>282</CustomerNum>
+  </Orders>
+  <Orders>
+    <OrderNum>21617</OrderNum>
+    <OrderDate>23-OCT-2007</OrderDate>
+    <CustomerNum>608</CustomerNum>
+  </Orders>
+  <Orders>
+    <OrderNum>21619</OrderNum>
+    <OrderDate>23-OCT-2007</OrderDate>
+    <CustomerNum>148</CustomerNum>
+  </Orders>
+  <Orders>
+    <OrderNum>21623</OrderNum>
+    <OrderDate>23-OCT-2007</OrderDate>
+    <CustomerNum>608</CustomerNum>
+  </Orders>
+</dataroot>

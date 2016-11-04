@@ -1,0 +1,23 @@
+version: '2'
+services:
+
+  hive:
+    image: kliew/hive-dev
+    container_name: "hive"
+    ports:
+      - "9999:9999"
+    volumes:
+      - "./data/json:/data"
+  
+  mongo:
+    image: mongo
+    container_name: "mongo"
+    volumes:
+      - "./data/json:/data"
+  
+  mongoui:
+    image: mongo-express
+    external_links:
+      - mongodb
+    ports:
+      - "8081:8081"

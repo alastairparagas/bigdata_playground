@@ -1,0 +1,11 @@
+Description,Price,PartNum,Warehouse,OnHand,Class
+Iron,24.95,AT94,3,50,HW
+Home Gym,794.95,BV06,2,45,SG
+Microwave Oven,165.00,CD52,1,32,AP
+Cordless Drill,129.95,DL71,3,21,HW
+Gas Range,495.00,DR93,2,8,AP
+Washer,399.99,DW11,3,12,AP
+Stand Mixer,159.95,FD21,3,22,HW
+Dryer,349.95,KL62,1,12,AP
+Dishwasher,595.00,KT03,3,8,AP
+Treadmill,1390.00,KV29,2,9,SG

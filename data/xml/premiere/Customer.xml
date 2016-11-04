@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataroot>
+  <Customer>
+    <CustomerNum>148</CustomerNum>
+    <CustomerName>Al's Appliance and Sport           </CustomerName>
+    <Street>2837 Greenway  </Street>
+    <City>Fillmore       </City>
+    <State>FL</State>
+    <Zip>33336</Zip>
+    <Balance>6550.00</Balance>
+    <CreditLimit>7500.00</CreditLimit>
+    <RepNum>20</RepNum>
+  </Customer>
+  <Customer>
+    <CustomerNum>282</CustomerNum>
+    <CustomerName>Brookings Direct                   </CustomerName>
+    <Street>3827 Devon     </Street>
+    <City>Grove          </City>
+    <State>FL</State>
+    <Zip>33321</Zip>
+    <Balance>431.50</Balance>
+    <CreditLimit>10000.00</CreditLimit>
+    <RepNum>35</RepNum>
+  </Customer>
+  <Customer>
+    <CustomerNum>356</CustomerNum>
+    <CustomerName>Ferguson's                         </CustomerName>
+    <Street>382 Wildwood   </Street>
+    <City>Northfield     </City>
+    <State>FL</State>
+    <Zip>33146</Zip>
+    <Balance>5785.00</Balance>
+    <CreditLimit>7500.00</CreditLimit>
+    <RepNum>65</RepNum>
+  </Customer>
+  <Customer>
+    <CustomerNum>408</CustomerNum>
+    <CustomerName>The Everything Shop                </CustomerName>
+    <Street>1828 Raven     </Street>
+    <City>Crystal        </City>
+    <State>FL</State>
+    <Zip>33503</Zip>
+    <Balance>5285.25</Balance>
+    <CreditLimit>5000.00</CreditLimit>
+    <RepNum>35</RepNum>
+  </Customer>
+  <Customer>
+    <CustomerNum>462</CustomerNum>
+    <CustomerName>Bargains Galore                    </CustomerName>
+    <Street>3829 Central   </Street>
+    <City>Grove          </City>
+    <State>FL</State>
+    <Zip>33321</Zip>
+    <Balance>3412.00</Balance>
+    <CreditLimit>10000.00</CreditLimit>
+    <RepNum>65</RepNum>
+  </Customer>
+  <Customer>
+    <CustomerNum>524</CustomerNum>
+    <CustomerName>Kline's                            </CustomerName>
+    <Street>838 Ridgeland  </Street>
+    <City>Fillmore       </City>
+    <State>FL</State>
+    <Zip>33336</Zip>
+    <Balance>12762.00</Balance>
+    <CreditLimit>15000.00</CreditLimit>
+    <RepNum>20</RepNum>
+  </Customer>
+  <Customer>
+    <CustomerNum>608</CustomerNum>
+    <CustomerName>Johnson's Department Store         </CustomerName>
+    <Street>372 Oxford     </Street>
+    <City>Sheldon        </City>
+    <State>FL</State>
+    <Zip>33553</Zip>
+    <Balance>2106.00</Balance>
+    <CreditLimit>10000.00</CreditLimit>
+    <RepNum>65</RepNum>
+  </Customer>
+  <Customer>
+    <CustomerNum>687</CustomerNum>
+    <CustomerName>Lee's Sport and Appliance          </CustomerName>
+    <Street>282 Evergreen  </Street>
+    <City>Altonville     </City>
+    <State>FL</State>
+    <Zip>32543</Zip>
+    <Balance>2851.00</Balance>
+    <CreditLimit>5000.00</CreditLimit>
+    <RepNum>35</RepNum>
+  </Customer>
+  <Customer>
+    <CustomerNum>725</CustomerNum>
+    <CustomerName>Deerfield's Four Seasons           </CustomerName>
+    <Street>282 Columbia   </Street>
+    <City>Sheldon        </City>
+    <State>FL</State>
+    <Zip>33553</Zip>
+    <Balance>248.00</Balance>
+    <CreditLimit>7500.00</CreditLimit>
+    <RepNum>35</RepNum>
+  </Customer>
+  <Customer>
+    <CustomerNum>842</CustomerNum>
+    <CustomerName>All Season                         </CustomerName>
+    <Street>28 Lakeview    </Street>
+    <City>Grove          </City>
+    <State>FL</State>
+    <Zip>33321</Zip>
+    <Balance>8221.00</Balance>
+    <CreditLimit>7500.00</CreditLimit>
+    <RepNum>20</RepNum>
+  </Customer>
+</dataroot>

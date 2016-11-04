@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataroot>
+  <Part>
+    <PartNum>AT94</PartNum>
+    <Description>Iron           </Description>
+    <OnHand>50</OnHand>
+    <Class>HW</Class>
+    <Warehouse>3</Warehouse>
+    <Price>24.95</Price>
+  </Part>
+  <Part>
+    <PartNum>BV06</PartNum>
+    <Description>Home Gym       </Description>
+    <OnHand>45</OnHand>
+    <Class>SG</Class>
+    <Warehouse>2</Warehouse>
+    <Price>794.95</Price>
+  </Part>
+  <Part>
+    <PartNum>CD52</PartNum>
+    <Description>Microwave Oven </Description>
+    <OnHand>32</OnHand>
+    <Class>AP</Class>
+    <Warehouse>1</Warehouse>
+    <Price>165.00</Price>
+  </Part>
+  <Part>
+    <PartNum>DL71</PartNum>
+    <Description>Cordless Drill </Description>
+    <OnHand>21</OnHand>
+    <Class>HW</Class>
+    <Warehouse>3</Warehouse>
+    <Price>129.95</Price>
+  </Part>
+  <Part>
+    <PartNum>DR93</PartNum>
+    <Description>Gas Range      </Description>
+    <OnHand>8</OnHand>
+    <Class>AP</Class>
+    <Warehouse>2</Warehouse>
+    <Price>495.00</Price>
+  </Part>
+  <Part>
+    <PartNum>DW11</PartNum>
+    <Description>Washer         </Description>
+    <OnHand>12</OnHand>
+    <Class>AP</Class>
+    <Warehouse>3</Warehouse>
+    <Price>399.99</Price>
+  </Part>
+  <Part>
+    <PartNum>FD21</PartNum>
+    <Description>Stand Mixer    </Description>
+    <OnHand>22</OnHand>
+    <Class>HW</Class>
+    <Warehouse>3</Warehouse>
+    <Price>159.95</Price>
+  </Part>
+  <Part>
+    <PartNum>KL62</PartNum>
+    <Description>Dryer          </Description>
+    <OnHand>12</OnHand>
+    <Class>AP</Class>
+    <Warehouse>1</Warehouse>
+    <Price>349.95</Price>
+  </Part>
+  <Part>
+    <PartNum>KT03</PartNum>
+    <Description>Dishwasher     </Description>
+    <OnHand>8</OnHand>
+    <Class>AP</Class>
+    <Warehouse>3</Warehouse>
+    <Price>595.00</Price>
+  </Part>
+  <Part>
+    <PartNum>KV29</PartNum>
+    <Description>Treadmill      </Description>
+    <OnHand>9</OnHand>
+    <Class>SG</Class>
+    <Warehouse>2</Warehouse>
+    <Price>1390.00</Price>
+  </Part>
+</dataroot>
