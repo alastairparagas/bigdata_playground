@@ -9,7 +9,9 @@
 </div>
 
 ## Instructions
-To run MongoDB and Apache Hive, simply run `docker-compose up` and it will spin up the containers for you automagically!
+First, make sure to have Docker installed (based on your operating system). [Install is through here!](https://www.docker.com/). After you have Docker installed, make sure it's running fine by issuing the commands `docker -v` and `docker-compose -v`
+
+After, `cd` into the folder where this project is under. Simply run `docker-compose up` and it will spin up the containers for you automagically!
 
 You can graphically access the contents of the MongoDB database on `<localhost|dockerport>:8081`
 
