@@ -15,6 +15,7 @@ services:
     container_name: "mongo"
     volumes:
       - "./data/json:/data"
+      - "./mongo:/mongo_init"
   
   mongoui:
     image: mongo-express
