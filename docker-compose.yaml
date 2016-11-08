@@ -7,7 +7,8 @@ services:
     ports:
       - "9999:9999"
     volumes:
-      - "./data/json:/data"
+      - "./data/csv:/data"
+      - "./hive:/hive_init"
   
   mongo:
     image: mongo
