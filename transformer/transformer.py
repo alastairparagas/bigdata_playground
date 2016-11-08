@@ -21,7 +21,7 @@ def xmlroot_to_list(element_tree_root):
     entity_attributes = {}
     for attributes in entity:
       entity_key = str(attributes.tag).strip()
-      entity_value = str(attributes.text).strip()
+      entity_value = str(attributes.text).strip().replace(",", "")
       entity_attributes[entity_key] = entity_value
     entities.append(entity_attributes)
     
@@ -34,8 +34,6 @@ Generates a Mongo-friendly JSON file based on
 @param {[]} entity_list
 '''
 def generate_mongo_json(output_file_name, entity_list):
-  output_file_name = output_file_name + ".json"
-  
   with open(output_file_name, 'w') as output_file:
     json.dump(entity_list, output_file)
 
@@ -46,8 +44,6 @@ Generates a Hive-friendly CSV file based on
 @param {[]} entity_list
 '''
 def generate_hive_csv(output_file_name, entity_list):
-  output_file_name = output_file_name + ".csv"
-  
   with open(output_file_name, 'w') as output_file:
     csv_writer = csv.DictWriter(
       output_file, 
@@ -55,34 +51,45 @@ def generate_hive_csv(output_file_name, entity_list):
     )
     csv_writer.writeheader()
     csv_writer.writerows(entity_list)
-
-xml_files_path = path.normpath(path.join(
-  path.abspath(__file__), 
-  "../../data/xml"
-))
-json_files_path = path.normpath(path.join(
-  path.abspath(__file__),
-  "../../data/output"
-))
-
-input_xml_files_list = glob.glob(
-  xml_files_path + "/company/*.xml"
-) + glob.glob(
-  xml_files_path + "/premiere/*.xml"
-)
-
-for input_xml_file in input_xml_files_list:
-  root = ElementTree.parse(input_xml_file).getroot()
-  output_file_name = path.join(
-    json_files_path, 
-    path.basename(path.dirname(input_xml_file)),
-    path.basename(input_xml_file).replace(".xml", "")
-  )
-  
-  storage_directory = path.dirname(output_file_name)
-  if not path.exists(storage_directory):
-    makedirs(storage_directory)
     
-  generate_hive_csv(output_file_name, xmlroot_to_list(root))
-  generate_mongo_json(output_file_name, xmlroot_to_list(root))
   
+  
+def main():
+  data_folder = path.normpath(path.join(
+    path.abspath(__file__),
+    "../../data"
+  ))
+
+  input_xml_files_list = glob.glob(
+    data_folder + "/xml/company/*.xml"
+  ) + glob.glob(
+    data_folder + "/xml/premiere/*.xml"
+  )
+
+  for input_xml_file in input_xml_files_list:
+    root = ElementTree.parse(input_xml_file).getroot()
+    
+    output_csv_file = path.join(
+      data_folder, 
+      "csv", 
+      path.split(path.dirname(input_xml_file))[1], 
+      path.basename(input_xml_file).replace(".xml", ".csv")
+    )
+    output_json_file = path.join(
+      data_folder, 
+      "json", 
+      path.split(path.dirname(input_xml_file))[1], 
+      path.basename(input_xml_file).replace(".xml", ".json")
+    )
+    
+    for directory in [path.dirname(output_csv_file), 
+                      path.dirname(output_json_file)]:
+      if not path.exists(directory):
+        makedirs(directory)
+
+    generate_hive_csv(output_csv_file, xmlroot_to_list(root))
+    generate_mongo_json(output_json_file, xmlroot_to_list(root))
+
+if __name__ == "__main__":
+  main()
+    
