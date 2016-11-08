@@ -1,0 +1,9 @@
+salary,bdate,dno,superssn,sex,lname,ssn,fname,address,minit
+30000,1965-01-09,5,333445555,M,Smith,123456789,John,731 Fondren Houston TX,B
+40000,1955-12-08,5,888665555,M,Wong,333445555,Franklin,638 Voss Houston TX,T
+25000,1972-07-31,5,333445555,F,English,453453453,Joyce,5631 Rice Houston TX,A
+38000,1962-09-15,5,333445555,M,Narayan,666884444,Ramesh,975 Fire Oak Humble TX,K
+55000,1937-11-10,1,None,M,Borg,888665555,James,450 Stone Houston TX,E
+43000,1941-06-20,4,888665555,F,Wallace,987654321,Jennifer,291 Berry Bellaire TX,S
+25000,1969-03-29,4,987654321,M,Jabbar,987987987,Ahmad,980 Dallas Houston TX,V
+25000,1968-01-19,4,987654321,F,Zelaya,999887777,Alicia,3321 Castle Spring TX,J
