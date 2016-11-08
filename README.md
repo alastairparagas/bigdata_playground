@@ -15,7 +15,11 @@ To run MongoDB and Apache Hive, simply run `docker-compose up` and it will spin 
 You can graphically access the contents of the MongoDB database on `<localhost|dockerport>:8081`
 
 To access Hive and execute SQL commands, run: 
-  1.) `docker exec -i -t hive bash`, which allows us to access the Docker Hive container
-  2.) `hive -f /hive_init/hive_init.sql`, which runs the initialization SQL script (which creates the databases, tables and loads the CSV data of our databases). For fun, check out the `hive/hive_init.sql` in this repository for more information
-  2.) `hive`, which then opens up the Hive CLI from within the Hive Docker container
-  4.) Run whatever SQL you want to execute and see the outputs!
+
+  1. `docker exec -i -t hive bash`, which allows us to access the Docker Hive container
+  
+  2. `hive -f /hive_init/hive_init.sql`, which runs the initialization SQL script (which creates the databases, tables and loads the CSV data of our databases). For fun, check out the `hive/hive_init.sql` in this repository for more information
+  
+  3. `hive`, which then opens up the Hive CLI from within the Hive Docker container
+  
+  4. Run whatever SQL you want to execute and see the outputs!
