@@ -29,9 +29,11 @@ You can graphically access the contents of the MongoDB database on `<localhost|d
   
   1. `docker exec -i -t mongo bash`, which allows us to access the MongoDB Docker container's shell
   
-  2. `chmod +x /mongo_init/init.sh`, which runs the initialization shell script (creates the MongoDB databases, collections and loads the JSON data of our databases). For fun, check out the `mongo/init.sh` file in this repository for more information
+  2. `chmod +x /mongo_init/stripCRonefile.sh && ./mongo_init/stripCRonefile.sh`, which runs the shell script that fixes the Windows problem of file endings for us. On the prompt, provide the filename `/mongo_init/init.sh`
   
-  3. Go to your browser, navigate to `<localhost|dockerport>:8081`
+  3. `chmod +x /mongo_init/init.sh && ./mongo_init/init.sh`, which runs the initialization shell script (creates the MongoDB databases, collections and loads the JSON data of our databases). For fun, check out the `mongo/init.sh` file in this repository for more information
   
-  4. See your data and execute queries as you please
+  4. Go to your browser, navigate to `<localhost|dockerport>:8081`
+  
+  5. See your data and execute queries as you please
   
