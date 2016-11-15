@@ -42,6 +42,7 @@ tblproperties("skip.header.line.count"="1")
 CREATE TABLE employee( 
   salary int,
   bdate date,
+  dno int,
   superssn int,
   sex char(1),
   lname varchar(20),
@@ -176,3 +177,5 @@ LOAD DATA LOCAL INPATH '/data/premiere/orderline.csv' OVERWRITE INTO TABLE order
 LOAD DATA LOCAL INPATH '/data/premiere/orders.csv' OVERWRITE INTO TABLE orders;
 LOAD DATA LOCAL INPATH '/data/premiere/part.csv' OVERWRITE INTO TABLE part;
 LOAD DATA LOCAL INPATH '/data/premiere/rep.csv' OVERWRITE INTO TABLE rep;
+
+USE company;
